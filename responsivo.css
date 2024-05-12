@@ -1,0 +1,72 @@
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+  .logo img {
+    max-width: 300px;
+    margin-left: 68px;
+  }
+
+  .navbar {
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+    height: 140px;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .uau {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 0px;
+  }
+
+  .novimagens {
+    margin-left: -300px;
+  }
+
+  .uau:hover {
+    color: rgb(255, 204, 127);
+  }
+
+  #aua {
+    display: none;
+  }
+
+  .bordabranca {
+    display: none;
+  }
+
+  .news {
+    border: 3px solid rgba(255, 255, 255, 0.24);
+    background-color: #ff8c00;
+    border-radius: 15px;
+    margin: 40px;
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-right: 20px;
+  }
+
+  p {
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+  }
+
+  .novimagens {
+    text-align: center;
+  }
+
+  .novimagens img {
+    max-width: 300px;
+    width: auto;
+    height: auto;
+  }
+}

@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Montserrat Alternates", sans-serif;
+  background-image: url(/imagens/background.png);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 70vh; /* altura total da tela */
+}
+
+.center img {
+  object-fit: contain; /* para garantir que a imagem não estique */
+}
+
+.navbar {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end; /* Alinha os itens à direita */
+  align-items: center; /* Alinha os itens verticalmente */
+  background: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.logo {
+  flex: 0px;
+  margin-left: 40%;
+  margin-right: auto;
+}
+
+.uau {
+  color: rgb(255, 153, 0);
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 350;
+}
+
+.uau:hover {
+  color: rgb(255, 204, 127);
+}
+
+.kk {
+  margin-right: 20px;
+}
+
+#aua {
+  color: white;
+  background: #fb8001;
+  padding: 12px;
+  border-radius: 12px;
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+#aua:hover {
+  background: #9d2600;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+h1 {
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  font-size: 25px; /* Reduzindo o tamanho da fonte */
+}
+
+h2 {
+  font-weight: 400 !important;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+}
+
+.news {
+  border: 3px solid rgba(255, 255, 255, 0.24);
+  background-color: #ff8c00;
+  border-radius: 15px;
+  margin: 20px; /* Reduzindo a margem geral */
+  padding-bottom: 15px; /* Reduzindo o espaço inferior */
+  width: 45%; /* Definindo a largura como 45% */
+}
+
+.news img {
+  max-width: 100px; /* Reduzindo o tamanho da imagem */
+}
+
+p {
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 20px;
+}
+
+#whatsapp-image {
+  position: fixed;
+  bottom: 4%;
+  right: 1%;
+  cursor: pointer;
+  max-width: 80px;
+  transition: transform 0.3s ease;
+}
+
+#whatsapp-image:hover {
+  transform: scale(1.1);
+}
+
+h4 {
+  color: white;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content img {
+  order: -1; /* Coloca a imagem antes do texto */
+}
+
+.container {
+  display: flex; /* Alteração para display flex */
+  justify-content: center;
+}
+
+.card {
+  width: 40%; /* Aumento de 30% */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.24);
+  background-color: #ff8c00;
+  border-radius: 10px;
+}
+
+.fundonos {
+  background-image: url(/imagens/fundo_sobre_nos.png);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 24px; /* Aumento de 20% */
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 18px; /* Aumento de 12.5% */
+  line-height: 1.5;
+}
+
+footer {
+  height: 270px;
+  background-color: black;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+}
